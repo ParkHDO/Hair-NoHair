@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['hair', 'no-hair']
+
+roboflow:
+  workspace: mario-0hfvf
+  project: hair-nohaid-detector
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mario-0hfvf/hair-nohaid-detector/dataset/1
